@@ -13,7 +13,7 @@ function getPosition() {
             console.log("Longitude:", lon);
             let info = document.createElement("div");
             info.id = "info";
-            info.textContent = `position: ${lat}, ${lon}`;
+            info.textContent = ` ${lat}, ${lon}`;
             document.getElementById("h").appendChild(info);
         },
         (err) => {
