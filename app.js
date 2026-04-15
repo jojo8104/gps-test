@@ -12,6 +12,7 @@ function getPosition() {
             console.log("Latitude:", lat);
             console.log("Longitude:", lon);
             let info = document.createElement("div");
+            info.id = "info";
             info.textContent = "position:"+lat+lon;
         },
         (err) => {
