@@ -14,6 +14,7 @@ function getPosition() {
             let info = document.createElement("div");
             info.id = "info";
             info.textContent = "position:"+lat+lon;
+            document.appendChild(info);
         },
         (err) => {
             console.log("Erreur:", err.message);
