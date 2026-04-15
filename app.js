@@ -14,7 +14,7 @@ function getPosition() {
             let info = document.createElement("div");
             info.id = "info";
             info.textContent = "position:";
-            document.appendChild(info);
+            document.getElementById("h").appendChild(info);
         },
         (err) => {
             console.log("Erreur:", err.message);
